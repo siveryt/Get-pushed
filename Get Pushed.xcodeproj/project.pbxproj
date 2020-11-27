@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EAF71A6257168C00081B4F2 /* create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF71A5257168C00081B4F2 /* create.swift */; };
+		5EAF71AB25716E060081B4F2 /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF71AA25716E060081B4F2 /* info.swift */; };
 		5EDEAEA125713C6100305282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDEAEA025713C6100305282 /* AppDelegate.swift */; };
 		5EDEAEA325713C6100305282 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDEAEA225713C6100305282 /* SceneDelegate.swift */; };
 		5EDEAEA525713C6100305282 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDEAEA425713C6100305282 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EAF71A5257168C00081B4F2 /* create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create.swift; sourceTree = "<group>"; };
+		5EAF71AA25716E060081B4F2 /* info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info.swift; sourceTree = "<group>"; };
 		5EDEAE9D25713C6100305282 /* Get Pushed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Pushed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDEAEA025713C6100305282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EDEAEA225713C6100305282 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,7 +105,9 @@
 			children = (
 				5EDEAEA025713C6100305282 /* AppDelegate.swift */,
 				5EDEAEA225713C6100305282 /* SceneDelegate.swift */,
+				5EAF71A5257168C00081B4F2 /* create.swift */,
 				5EDEAEA425713C6100305282 /* ViewController.swift */,
+				5EAF71AA25716E060081B4F2 /* info.swift */,
 				5EDEAEA625713C6100305282 /* Main.storyboard */,
 				5EDEAEA925713C6400305282 /* Assets.xcassets */,
 				5EDEAEAB25713C6400305282 /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EAF71AB25716E060081B4F2 /* info.swift in Sources */,
 				5EDEAEA525713C6100305282 /* ViewController.swift in Sources */,
 				5EDEAEA125713C6100305282 /* AppDelegate.swift in Sources */,
 				5EDEAEA325713C6100305282 /* SceneDelegate.swift in Sources */,
+				5EAF71A6257168C00081B4F2 /* create.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.sivery.Get-Pushed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.sivery.Get-Pushed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
